@@ -1,0 +1,49 @@
+/* Reset nhẹ */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* Khung chính */
+.container {
+  width: 400px;
+  margin: 100px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* Tiêu đề */
+h1 {
+  color: #333;
+}
+
+/* Đoạn văn */
+p {
+  color: #666;
+}
+
+/* Khung nội dung */
+.box {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #e9f1ff;
+  border-radius: 5px;
+}
+
+/* Nút */
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #4a90e2;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #357ab8;
+}

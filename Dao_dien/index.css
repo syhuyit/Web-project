@@ -1,0 +1,65 @@
+/* Toàn trang */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+/* Logo */
+img {
+  margin-top: 40px;
+}
+
+/* Chữ nhỏ dưới logo */
+p {
+  margin: 5px 0 30px;
+  color: #555;
+}
+
+/* Tiêu đề */
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form */
+form {
+  width: 300px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Label */
+label {
+  float: left;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Input */
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background-color: #4a90e2;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #357ab8;
+}
