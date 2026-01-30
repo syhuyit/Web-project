@@ -1,0 +1,7 @@
+pre {
+  display: none;
+}
+
+input:checked ~ pre {
+  display: block;
+}
