@@ -1,0 +1,6 @@
+.infor {
+  text-decoration: none;
+}
+.infor:hover {
+  color: red;
+}
