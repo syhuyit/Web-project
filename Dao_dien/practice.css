@@ -1,3 +1,8 @@
+body {
+  background-color: #e8f0fe;
+  margin: 0;
+  padding: 0;
+}
 main {
   font-family: arial;
 }
