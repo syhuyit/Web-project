@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../Dao_dien/menu.css" />
-    <link rel="stylesheet" href="../Dao_dien/CSSklg.css" />
+    <link rel="stylesheet" href="../Giao_dien/menu.css" />
+    <link rel="stylesheet" href="../Giao_dien/CSS.css" />
     <title>Kiến thức CSS</title>
   </head>
   <body>
@@ -26,11 +26,60 @@
           <li><a href="../Mini_Game/option.html">Mini Game</a></li>
         </div>
       </ul>
-
       <div class="nav-right">
         <button id="logoutBtn" class="logout">Đăng xuất</button>
       </div>
     </nav>
+    <main>
+      <h1 class="heading1">Kiến Thức Cơ Bản CSS</h1>
+      <h2 class="heading2">1. Tổng quan về CSS</h2>
+      <p>
+        CSS (Cascading Style Sheets) là ngôn ngữ dùng để mô tả cách trình bày
+        của tài liệu HTML. CSS giúp bạn kiểm soát màu sắc, phông chữ, khoảng
+        cách, bố cục và nhiều khía cạnh khác của trang web, giúp nó trở nên
+        hấp dẫn và dễ sử dụng hơn.
+      </p>
+      <h2 class="heading2">2. Cú pháp CSS</h2>
+      <p>
+        Cú pháp CSS gồm các selector và declaration.
+        Selector là phần dùng để chọn phần tử HTML cần định dạng, còn declaration là phần mô tả các thuộc tính và giá trị của chúng.
+      </p>
+      <h3 class="heading3">2.1. Selector</h3>
+      <p>
+        Selector là phần dùng để chọn phần tử HTML cần định dạng. Có nhiều loại selector khác nhau như selector lớp (class selector), selector id (id selector), và selector phần tử (element selector).
+      </p>
+      <h3 class="heading3">2.2. Declaration</h3>
+      <p>
+        Declaration là phần mô tả các thuộc tính và giá trị của chúng. Mỗi declaration bao gồm một thuộc tính (property) và một giá trị (value), được phân cách bởi dấu hai chấm (:). Các declaration được đặt trong dấu ngoặc nhọn ({}) và cách nhau bằng dấu chấm phẩy (;).
+      </p>
+      <h2 class="heading2">3. Cấu trúc và Cách chèn CSS</h2>
+      <p> Bộ chọn cơ bản:</p>
+      <ul>
+        <li>Selector phần tử (Element Selector): Chọn tất cả các phần tử có tên cụ thể. Ví dụ: p { color: red; }</li>
+        <li>Selector lớp (Class Selector): Chọn tất cả các phần tử có một lớp cụ thể. Ví dụ: .my-class { font-size: 16px; }</li>
+        <li>Selector id (ID Selector): Chọn phần tử duy nhất có một ID cụ thể. Ví dụ: #my-id { background-color: blue; }</li>
+      </ul>
+      <p>
+        Cách chèn CSS vào trang web:
+        <ul>
+          <li>Inline CSS: Chèn trực tiếp vào thẻ HTML bằng thuộc tính style. Ví dụ: <code>&lt;h1 style="color: red;"&gt;Tiêu đề&lt;/h1&gt;</code></li>
+          <li>Internal CSS: Chèn trong phần &lt;head&gt; của tài liệu HTML bằng thẻ &lt;style&gt;. Ví dụ:
+            <pre><code>&lt;style&gt;
+  h1 {
+    color: red;
+  }
+&lt;/style&gt;</code></pre>
+          </li>
+      </p> 
+      <h2 class="heading2">4. CSS Box Model (Mô hình hộp)</h2>
+      <p>Đây là kiến thức quan trọng nhất để dàn trang. Mọi phần tử HTML đều được coi là một cái hộp bao gồm 4 lớp từ trong ra ngoài:</p>
+        <ul>
+          <li>Content (Nội dung): Phần chứa nội dung thực tế của phần tử.</li>
+          <li>Padding (Đệm): Khoảng cách giữa nội dung và viền của phần tử.</li>
+          <li>Border (Viền): Đường viền bao quanh phần tử.</li>
+          <li>Margin (Lề): Khoảng cách giữa phần tử và các phần tử khác xung quanh nó.</li>
+        </ul>
+      </main>
     <script src="../Chuc_nang/checkInOut.js"></script>
   </body>
 </html>

@@ -90,6 +90,15 @@
 }
 
 .logout:hover {
-  background-color: #e9e6e6;
+  background-color: #f70000;
   color: rgb(0, 0, 0);
+  animation: rainbow 3s linear infinite;
+}
+@keyframes rainbow {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
 }

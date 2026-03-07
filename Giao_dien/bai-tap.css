@@ -20,10 +20,6 @@ td {
 th {
   background-color: blue;
 }
-/* :hover tác dụng khi di chuột qua  */
-.baitap:hover {
-  color: chocolate;
-}
 /* :link tác dụng khi người dùng chưa click vào link */
 .baitap:link {
   color: blue;
@@ -31,6 +27,10 @@ th {
 /* :visited tác dụng khi người dùng đã click */
 .baitap:visited {
   color: red;
+}
+/* :hover tác dụng khi di chuột qua  */
+.baitap:hover {
+  color: rgb(95, 154, 46);
 }
 /* :empty tác dụng khi thẻ ở trạng thái trống */
 /* :target tác dụng khi click vào link nhảy đoạn */
