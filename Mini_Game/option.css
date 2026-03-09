@@ -1,11 +1,8 @@
 body {
   margin: 0;
   height: 100vh;
-
   background: linear-gradient(270deg, #ff00cc, #3333ff, #00ffee, #ff9900);
-
   background-size: 600% 600%;
-
   animation: gradientMove 50s ease infinite;
 }
 
@@ -13,11 +10,9 @@ body {
   0% {
     background-position: 0% 50%;
   }
-
   50% {
     background-position: 100% 50%;
   }
-
   100% {
     background-position: 0% 50%;
   }

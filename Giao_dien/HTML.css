@@ -17,3 +17,7 @@ th,
 td {
   border: 1px solid black;
 }
+th {
+  background-color: aqua;
+  font-size: 28px;
+}

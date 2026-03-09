@@ -18,7 +18,8 @@ td {
   text-decoration: none;
 }
 th {
-  background-color: blue;
+  background-color: aqua;
+  font-size: 28px;
 }
 /* :link tác dụng khi người dùng chưa click vào link */
 .baitap:link {
@@ -26,11 +27,11 @@ th {
 }
 /* :visited tác dụng khi người dùng đã click */
 .baitap:visited {
-  color: red;
+  color: rgb(167, 162, 62);
 }
 /* :hover tác dụng khi di chuột qua  */
 .baitap:hover {
-  color: rgb(95, 154, 46);
+  color: rgb(46, 152, 154);
 }
 /* :empty tác dụng khi thẻ ở trạng thái trống */
 /* :target tác dụng khi click vào link nhảy đoạn */
