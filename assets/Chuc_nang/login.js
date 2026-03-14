@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Nếu đã login rồi → chuyển sang home
   const existingUser = localStorage.getItem("username");
   if (existingUser) {
-    window.location.href = "home.html";
+    window.location.href = "/pages/home.html";
     return;
   }
 
